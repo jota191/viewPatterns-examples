@@ -1,5 +1,3 @@
-{-# LANGUAGE ViewPatterns #-}
-
 module Rational (Rational(),mkRational,RatView(Rat),ratView) where
 
 import Prelude hiding (Rational)
