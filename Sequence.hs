@@ -16,7 +16,7 @@ append = Append
 empty  = EmptySeq
 snoc   = Snoc
 
--- | no tienen por qué seguir estructura
+-- | no tienen porqué seguir estructura
 wrap a = Cons a EmptySeq
 
 
@@ -24,7 +24,7 @@ data ListView a
   = ConsV a (Sequence a)
   | NilV
 
--- | Vista es implementada con listas builtin
+-- | Vista
 listview :: Sequence a -> ListView a
 listview (Cons a s)
   = ConsV a s
